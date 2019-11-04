@@ -1,7 +1,7 @@
 # use-gpr-npm-package-example
 A simple example of how to use a npm package in the GitHub Package Registry
 
-Uses [@codertocat/hello-world-npm](https://github.com/Codertocat/hello-world-npm/packages/10696). `.npmrc` has already been configured according to https://help.github.com/en/github/managing-packages-with-github-package-registry/configuring-npm-for-use-with-github-package-registry#installing-packages-from-other-organizations
+Uses [@codertocat/hello-world-npm](https://github.com/Codertocat/hello-world-npm/packages/10696) to say hi. `.npmrc` has already been configured, so you just need to login to the GitHub Package Registry and install dependencies.
 
 ## Steps
 
@@ -11,3 +11,8 @@ Uses [@codertocat/hello-world-npm](https://github.com/Codertocat/hello-world-npm
 4. Optional: run `npm update @codertocat/hello-world-npm`
 5. Run `node index.js`
 6. Celebrate - you just made use of a GitHub Package Registry package! 🎉
+
+## More Information
+
+* [About GitHub Package Registry](https://help.github.com/en/github/managing-packages-with-github-package-registry/about-github-package-registry)
+* [npm: Installing packages from other organizations](https://help.github.com/en/github/managing-packages-with-github-package-registry/configuring-npm-for-use-with-github-package-registry#installing-packages-from-other-organizations)
