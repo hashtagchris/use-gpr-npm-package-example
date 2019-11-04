@@ -7,7 +7,7 @@ Uses [@codertocat/hello-world-npm](https://github.com/Codertocat/hello-world-npm
 
 1. [Create a Personal Access Token (PAT)](https://github.com/settings/tokens) with `repo` and `read:packages` scopes.
 2. Run `npm login --registry=https://npm.pkg.github.com`, use the token created in step 1 as your password.
-3. Run `npm install`. This downloads dependencies like [@codertocat/hello-world-npm](https://github.com/Codertocat/hello-world-npm/packages/10696) from https://npm.pkg.github.com to `node_modules`.
+3. Run `npm install`. This downloads dependencies like [@codertocat/hello-world-npm](https://github.com/Codertocat/hello-world-npm/packages/10696) to `node_modules`.
 4. Optional: run `npm update @codertocat/hello-world-npm`
 5. Run `node index.js`
 6. Celebrate - you just made use of a GitHub Package Registry package! 🎉
