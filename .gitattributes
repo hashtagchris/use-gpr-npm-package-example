@@ -1,0 +1,2 @@
+# npm uses unix line endings everywhere, even on Windows.
+package.json eol=lf
